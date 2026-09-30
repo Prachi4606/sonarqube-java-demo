@@ -15,4 +15,14 @@
         <sonar.host.url>http://127.0.0.1:9000</sonar.host.url>
     </properties>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.sonarsource.scanner.maven</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>5.4.0.6347</version>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>
